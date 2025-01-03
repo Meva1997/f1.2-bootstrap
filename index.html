@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" defer></script>
+    <link rel="stylesheet" href="main.css">
+    <title>F1</title>
+</head>
+<body>
+    <header id="header">
+        <section class="navbar">
+              <img src="./img/logo.jpg" alt="logo" class="logo">
+              <nav class="nav-menu">
+                <a href="#header">Inicio</a>
+                <a href="#content">Noticias</a>
+                <a href="#form">Registrate</a>
+                <a href="#footer">Contacto</a>
+              </nav>
+      
+              <article class="user-div">
+                  <img src="./img/person.svg" alt="user" class="header-user" id="header-user"> 
+                    <div id="user" style="display: none;">
+
+                    </div>
+                  <img src="./img/list.svg" alt="list" class="header-list" id="header-list">
+                    <div id="list" style="display: none;">
+
+                    </div>
+              </article>
+       </section>
+    </header>
+    <main>
+        <article>
+            <h1 class="titulo">Noticias F1</h1>
+        </article>
+        <!-- Contenido de la pagina -->
+        <article class="content" id="content">
+            <section class="parrafo-1" id="parrafo-1">
+                <h2 class="titulo_1"> Temporada 2024</h2>
+                <p class="intro">La temporada 2024 de la Fórmula 1 se destacó por su competitividad y momentos emocionantes. Max Verstappen, de Red Bull Racing, aseguró su cuarto título mundial en el Gran Premio de Las Vegas, consolidando su dominio en la categoría. 
+                </p>
+                
+                    <ul class="hitos-lista">
+                        <li>McLaren, por su parte, logró su noveno Campeonato de Constructores, un hito que no alcanzaban desde 1998. 
+                        </li>
+                        <li>
+                        En cuanto a los pilotos, Lando Norris y Charles Leclerc se destacaron al obtener el segundo y tercer lugar en el campeonato de pilotos, respectivamente. 
+                        </li>
+                        <li>
+                        Por otro lado, Sergio "Checo" Pérez concluyó su carrera de 13 años en la Fórmula 1, dejando a México sin representante para la temporada 2025.
+                        </li>
+                        <li>
+                        La temporada 2024 también fue notable por la variedad de ganadores en las distintas carreras, lo que añadió emoción y sorpresas al campeonato. 
+                        </li>
+                        <li>
+                        En resumen, la temporada 2024 de la Fórmula 1 ofreció una combinación de dominio consolidado y nuevas sorpresas, manteniendo a los aficionados al borde de sus asientos.
+                        </li>
+                    </ul>
+
+                    <div id="carouselExample" class="carousel slide">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="./img/f1-teams.jpg" class="d-block w-100" alt="f1 teams">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./img/checo.jpg" class="d-block w-100" alt="Checo y Max">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./img/carros.jpg" class="d-block w-100" alt="Autos de F1">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+            </section>
+
+            <section class="noticia-2">
+                <h2 class="titulo_2">El fin de una era para el piloto mexicano</h2>
+
+                <div class="parrafo-2">
+                    <p>
+                        La temporada 2024 marcó el cierre de la carrera de Sergio "Checo" Pérez en la Fórmula 1 después de 13 años de trayectoria. Compitiendo con Red Bull Racing, el piloto mexicano enfrentó una temporada desafiante, con resultados irregulares y la presión constante de mantener su asiento en un equipo de alto nivel.
+                    </p>
+                    <p>
+                        Checo logró algunos podios notables, pero no pudo consolidarse como un contendiente constante contra su compañero de equipo, Max Verstappen, quien dominó el campeonato. A pesar de las dificultades, Pérez se despidió como uno de los pilotos más exitosos de México, dejando un legado importante en el automovilismo latinoamericano.
+                    </p>
+                    <p>
+                        La salida de Pérez deja a México sin un representante en la Fórmula 1 para 2025, pero su impacto y contribuciones al deporte serán recordados por los aficionados.
+                    </p>
+                </div>
+
+                <div class="card mb-3" style="max-width: 900px;">
+                    <div class="row g-0">
+                      <div class="col-md-4">
+                        <img src="./img/Christian-horner.jpg" class="img-fluid rounded-start" alt="Christian-horner">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title">"Checo decidio irse"</h5>
+                          <p class="card-text">Christian Horner, director del equipo Red Bull Racing, comentó sobre la salida de Sergio 'Checo' Pérez, afirmando que el piloto mexicano decidió tomarse un año sabático de la Fórmula 1. Horner declaró: "Después de la temporada, se consultó y discutimos los próximos pasos. Ha decidido tomarse un tiempo muerto y un año sabático. Seguirá involucrado con el equipo y la marca, pero está dejando de conducir. Es triste verlo partir, pero es hora de que pase tiempo con su joven familia y vea lo que le depara el futuro".</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </section>
+
+            <section class="noticia-3">
+                <h3 class="titulo_3">Red Bull en problemas?</h3>
+                <div class="parrafo-3">
+                    <p>Red Bull Racing tomó una decisión estratégica al elegir a Liam Lawson como piloto titular para la temporada 2025, reemplazando a Sergio "Checo" Pérez. Lawson, quien impresionó en su etapa como piloto de reserva y con actuaciones destacadas en sustituciones temporales, demostró un ritmo consistente, madurez y una rápida adaptación al monoplaza del equipo.
+                    </p>
+                    <p>La elección de Lawson refuerza la filosofía de Red Bull de promover talento joven desde su academia, priorizando el potencial a largo plazo. Con Max Verstappen consolidado como líder del equipo, Lawson llega como un piloto prometedor, listo para aportar competitividad y mantener a Red Bull en la cima de la Fórmula 1. Esta decisión también subraya la presión constante que enfrentan los pilotos en la escudería, donde el rendimiento es el principal criterio de permanencia.
+                    </p>
+                </div>
+
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                          Lawson a Red Bull
+                        </button>
+                      </h2>
+                      <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">La reciente decisión de Red Bull de reemplazar a Sergio Pérez con Liam Lawson para la temporada 2025 de Fórmula 1 ha generado una serie de comentarios polémicos en la comunidad automovilística.Muchos fanáticos y expertos han expresado su sorpresa y descontento, argumentando que Yuki Tsunoda, con más experiencia y un rendimiento superior en ciertas áreas, merecía más la promoción.</div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                          Chrisitan Horner defiende su posicion 
+                        </button>
+                      </h2>
+                      <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Por su parte, Christian Horner, jefe del equipo Red Bull, defendió la elección de Lawson, elogiando su carácter y capacidad para manejar la presión de competir junto a Max Verstappen. Horner afirmó que Lawson demostró la "resiliencia necesaria" para enfrentar los desafíos del equipo principal. Además, la relación previa entre Lawson y Pérez añade otra capa de controversia. En una carrera anterior, Lawson realizó un gesto obsceno hacia Pérez después de una maniobra en la pista, lo que generó tensiones entre ambos pilotos</div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                          La gran polemica
+                        </button>
+                      </h2>
+                      <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Este incidente ha llevado a algunos a cuestionar la dinámica futura dentro del equipo. En resumen, la entrada de Liam Lawson a Red Bull ha desatado una serie de reacciones encontradas, con debates sobre la justicia de la decisión y las implicaciones para la dinámica del equipo en la próxima temporada.</div>
+                      </div>
+                    </div>
+                  </div>
+            </section>
+        </article>
+
+        <!-- Tabla de posiciones de pilotos -->
+        <article>
+            <h3 class="titulo_4">Tabla de Posiciones Campeonato de Pilotos</h3>
+            <section>
+                <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Pilot</th>
+                        <th scope="col">Points</th>
+                        <th scope="col">Constuctor's Team</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>Max Verstappen</td>
+                        <td>437 pts</td>
+                        <td>Red Bull</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td>Lando Norris</td>
+                        <td>374 pts</td>
+                        <td>McLaren</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th>
+                        <td>Charles Leclerc</td>
+                        <td>356 pts</td>
+                        <td>Ferrari</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">4</th>
+                        <td>Oscar Piastri</td>
+                        <td>292 pts</td>
+                        <td>McLaren</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">5</th>
+                        <td>Carlos Sainz</td>
+                        <td>290 pts</td>
+                        <td>Ferrari</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">6</th>
+                        <td>George Russell</td>
+                        <td>245 pts</td>
+                        <td>Mercedes Petronas Team</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">7</th>
+                        <td>Lewis Hamilton</td>
+                        <td>223 pts</td>
+                        <td>Mercedes Petronas Team</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">8</th>
+                        <td>Sergio Perez</td>
+                        <td>152 pts</td>
+                        <td>Red Bull</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">9</th>
+                        <td>Fernando Alonso</td>
+                        <td>70 pts</td>
+                        <td>Aston Martin</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">10</th>
+                        <td>Pierre Gasly</td>
+                        <td>42 pts</td>
+                        <td>Alpine</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">11</th>
+                        <td>Nico Hulkenberg</td>
+                        <td>41 pts</td>
+                        <td>HAAS</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">12</th>
+                        <td>Yuki Tsunoda</td>
+                        <td>30 pts</td>
+                        <td>Visa Racing Team</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">13</th>
+                        <td>Lance Stroll</td>
+                        <td>24 pts</td>
+                        <td>Aston Martin</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">14</th>
+                        <td>Esteban Ocon</td>
+                        <td>23 pts</td>
+                        <td>Alpine</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">15</th>
+                        <td>Kevin Magnussen</td>
+                        <td>16 pts</td>
+                        <td>HAAS</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">16</th>
+                        <td>Alexander Albon</td>
+                        <td>12 pts</td>
+                        <td>Williams</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">17</th>
+                        <td>Daniel Riccardo</td>
+                        <td>12 pts</td>
+                        <td>Visa Racing Team</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">18</th>
+                        <td>Oliver Bearman</td>
+                        <td>7 pts</td>
+                        <td>Ferrari/ HAAS</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">19</th>
+                        <td >Franco Colapinto</td>
+                        <td>5 pts</td>
+                        <td>Williams</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">20</th>
+                        <td >Zhou Guanyu</td>
+                        <td>4 pts</td>
+                        <td>Sauber</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">21</th>
+                        <td >Liam Lawson</td>
+                        <td>4 pts</td>
+                        <td>Visa Racing Team</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">22</th>
+                        <td>Valtteri Bottas</td>
+                        <td>0 pts</td>
+                        <td>Sauber</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">23</th>
+                        <td >Logan Sargeant</td>
+                        <td>0 pts</td>
+                        <td>Williams</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">24</th>
+                        <td >Jack Doohan</td>
+                        <td>0 pts</td>
+                        <td>Alpine</td>
+                      </tr>
+                    </tbody>
+                  </table>
+            </section>
+        </article>
+
+        <hr>
+
+        <!-- register form -->
+        <article>
+            <form class="row g-3 needs-validation" id="form" novalidate>
+                <h3 class="form-title">¡Register for everyday news!</h3>
+                <div class="col-md-4">
+                  <label for="validationCustom01" class="form-label">First name</label>
+                  <input type="text" class="form-control" id="validationCustom01" placeholder="Ex. Mark" name="validationCustom01">
+                </div>
+                <div class="col-md-4">
+                  <label for="validationCustom02" class="form-label">Last name</label>
+                  <input type="text" class="form-control" id="validationCustom02" placeholder="Ex. Smith" name="validationCustom02">
+                </div>
+                <div class="col-md-4">
+                  <label for="validationCustomUsername" class="form-label">Username</label>
+                    <div class="input-group">
+                      <span class="input-group-text" id="validationCustomUsernamePrepend">@</span>
+                      <input type="text" class="form-control" id="validationCustomUsername" placeholder="Username" aria-describedby="validationCustomUsernamePrepend" name="validationCustomUsername" required>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                  <label for="validationCustom03" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="validationCustom03" name="validationCustom03" required>
+                </div>
+                <div class="col-12">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck" name="checkbox" required>
+                    <label class="form-check-label" for="invalidCheck">
+                      Agree to terms and conditions
+                    </label>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <button class="btn btn-primary" type="submit" disabled>Submit form</button>
+               </div>
+                <span class="loader"></span>
+              </form>
+        </article>
+
+        <footer id="footer">
+            <img src="./img/logo.jpg" class="logo-footer">
+            <ul class="footer-menu">
+                <li><a href="#header" class="home"><img src="./img/house-fill.svg" alt="home"> Inicio</a></li>
+                <li class="contact"><img src="./img/telephone.svg" alt="telefono"> Contacto: (55)328947234</li>
+                <li class="social"><img src="./img/person-lines-fill.svg" alt="social media"> @media-F1</li>
+            </ul>
+        </footer>
+
+    </main>
+
+    <script src="./form.js"></script>
+    <script src="./user-list.js"></script>
+</body>
+</html>
